@@ -3,7 +3,7 @@ import {ENV, TOKEN, PORT, HOST} from './config';
 
 const options = ENV === 'development' ?
 	{polling: true} :
-	{webHook: true, port: PORT, host: HOST};
+	{webHook: {port: 8000, host: HOST}};
 
 const bot = new TelegramBot(TOKEN, options);
 
