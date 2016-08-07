@@ -10,7 +10,11 @@
     "test": "xo",
     "postinstall": "npm run build"
   },
-  "keywords": ["Roundabout", "Yes", "JoJo"],
+  "keywords": [
+    "Roundabout",
+    "Yes",
+    "JoJo"
+  ],
   "author": "lubien <lubien1996@gmail.com> (http://lubien.me)",
   "license": "MIT",
   "dependencies": {
@@ -19,6 +23,7 @@
     "babel-polyfill": "^6.13.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-2": "^6.11.0",
+    "botanio": "0.0.6",
     "camel-case": "^3.0.0",
     "dotenv": "^2.0.0",
     "node-telegram-bot-api": "^0.23.3",
